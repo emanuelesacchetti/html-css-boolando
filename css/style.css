@@ -146,3 +146,10 @@ footer {
 .white {
     color: white;
 }
+
+.img1:hover {
+    display: none;
+}
+.img1:hover + .img2{
+    display: block;
+}
