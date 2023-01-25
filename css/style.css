@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*debug*/
+
+.debug .cont {
+    background-color: red;
+    height: 50px;
+}
+
+.debug .box {
+    border: 1px solid black;
+}
+
+
+
+
+/*css*/
+
+header {
+    background-color: orange;
+    height: 100px;
+    padding: 20px;
+}
+
+.cont {
+    width: 70%;
+    margin: auto;
+}
+
