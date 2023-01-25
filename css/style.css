@@ -7,8 +7,7 @@
 /*debug*/
 
 .debug .header_cont {
-    background-color: red;
-    height: 50px;
+    
 }
 
 
@@ -43,12 +42,13 @@
 
 header {
     background-color: orange;
-    height: 100px;
-    padding: 20px 0;
+    height: 50px;
+    padding: 5px;
 }
 
 .header_cont {
     display: flex;
+    height: 40px;
 }
 
 .cont {
@@ -57,7 +57,7 @@ header {
 }
 
 .menu {
-    width: 20%;
+    width: 30%;
     text-align: left;
     list-style-type: none;
     line-height: 100%;
@@ -66,18 +66,29 @@ header {
 
 .menu li{
     display: inline-block;
+    margin: 0 5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
 }
 
 .logo {
-    width: 60%;
+    width: 40%;
     padding: 10px;
     text-align: center;
 }
 
+.logo img {
+    height: 80%;
+}
+
 .icons {
-    width: 20%;
+    width: 30%;
     padding: 10px;
     text-align: right;
+    color: white;
 }
 
 
@@ -98,6 +109,19 @@ header {
 
 .image {
     height: 300px;
+}
+
+.image img {
+    width: 100%;
+    
+    object-fit: contain;
+}
+
+.img1 {
+    display: block;
+}
+.img2 {
+    display: none;
 }
 
 .text {
