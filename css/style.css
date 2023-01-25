@@ -4,40 +4,6 @@
     box-sizing: border-box;
 }
 
-/*debug*/
-
-.debug .header_cont {
-    
-}
-
-
-
-.debug .box {
-    border: 1px solid black;
-}
-
-.debug .flex-cont_main {
-    background-color: blue;
-}
-
-.debug .card {
-    background-color: azure;
-}
-
-.debug .image {
-    background-color: aqua;
-
-}
-
-.debug .text {
-    background-color: brown;
-}
-
-.debug .flex-cont_footer {
-    background-color: aquamarine;
-    height: 50px;
-}
-
 /*css*/
 
 header {
@@ -69,7 +35,7 @@ header {
     margin: 0 5px;
 }
 
-.menu li a {
+body a {
     text-decoration: none;
     color: white;
 }
@@ -107,14 +73,10 @@ header {
     padding: 20px;
 }
 
-.image {
-    height: 300px;
-}
-
 .image img {
     width: 100%;
     
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .img1 {
@@ -124,14 +86,28 @@ header {
     display: none;
 }
 
-.text {
-    height: 100px;
+.text h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.text h3 {
+    font-size: 18px;
+}
+.text span {
+    font-size: 15px;
+}
+.sale_price {
+    color: red;
+}
+.real_price {
+    text-decoration: line-through;
+    margin-left: 5px;
 }
 
-
-
-
-
+.bold {
+    font-weight: bold;
+}
 
 
 footer {
@@ -143,5 +119,30 @@ footer {
 .flex-cont_footer {
     display: flex;
     justify-content: space-between;
+    height: 50px;
 }
 
+.flex-item_footer_dx {
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+.flex-cont_footer a {
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.icon_footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.icons i {
+    display: inline-block;
+}
+
+.white {
+    color: white;
+}
