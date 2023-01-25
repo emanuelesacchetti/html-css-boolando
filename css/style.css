@@ -10,11 +10,15 @@ header {
     background-color: orange;
     height: 50px;
     padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .header_cont {
     display: flex;
     height: 40px;
+
 }
 
 .cont {
@@ -58,7 +62,9 @@ body a {
 }
 
 
-
+main {
+    padding: 80px;
+}
 
 
 .flex-cont_main {
@@ -73,6 +79,9 @@ body a {
     padding: 20px;
 }
 
+.image {
+    position: relative;
+}
 .image img {
     width: 100%;
     
@@ -152,4 +161,43 @@ footer {
 }
 .img1:hover + .img2{
     display: block;
+}
+
+.heart_box {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    top: 20px;
+    right: 0;
+    position: absolute;
+    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+/*
+.heart_box:hover {
+    color: red;
+}*/
+
+.box_red {
+    width: 40px;
+    background-color: red;
+    font-size: 14px;
+    padding: 4px;
+    margin-right: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+.box_green {
+    width: 50px;
+    background-color: green;
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
 }
