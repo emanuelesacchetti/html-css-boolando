@@ -6,28 +6,118 @@
 
 /*debug*/
 
-.debug .cont {
+.debug .header_cont {
     background-color: red;
     height: 50px;
 }
+
+
 
 .debug .box {
     border: 1px solid black;
 }
 
+.debug .flex-cont_main {
+    background-color: blue;
+}
 
+.debug .card {
+    background-color: azure;
+}
 
+.debug .image {
+    background-color: aqua;
+
+}
+
+.debug .text {
+    background-color: brown;
+}
+
+.debug .flex-cont_footer {
+    background-color: aquamarine;
+    height: 50px;
+}
 
 /*css*/
 
 header {
     background-color: orange;
     height: 100px;
-    padding: 20px;
+    padding: 20px 0;
+}
+
+.header_cont {
+    display: flex;
 }
 
 .cont {
     width: 70%;
     margin: auto;
+}
+
+.menu {
+    width: 20%;
+    text-align: left;
+    list-style-type: none;
+    line-height: 100%;
+    padding: 10px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.logo {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons {
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+
+
+.flex-cont_main {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 30px auto;
+}
+
+.card {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.image {
+    height: 300px;
+}
+
+.text {
+    height: 100px;
+}
+
+
+
+
+
+
+
+footer {
+    height: 100px;
+    background-color: darkslategray;
+    padding: 20px 0;
+}
+
+.flex-cont_footer {
+    display: flex;
+    justify-content: space-between;
 }
 
