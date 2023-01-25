@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*css*/
+
+header {
+    background-color: orange;
+    height: 50px;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header_cont {
+    display: flex;
+    height: 40px;
+
+}
+
+.cont {
+    width: 70%;
+    margin: auto;
+}
+
+.menu {
+    width: 30%;
+    text-align: left;
+    list-style-type: none;
+    line-height: 100%;
+    padding: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    height: 80%;
+}
+
+.icons {
+    width: 30%;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
+
+
+main {
+    padding: 80px;
+}
+
+
+.flex-cont_main {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 30px auto;
+}
+
+.card {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.image {
+    position: relative;
+}
+.image img {
+    width: 100%;
+    
+    object-fit: fill;
+}
+
+.img1 {
+    display: block;
+}
+.img2 {
+    display: none;
+}
+
+.text h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.text h3 {
+    font-size: 18px;
+}
+.text span {
+    font-size: 15px;
+}
+.sale_price {
+    color: red;
+}
+.real_price {
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+footer {
+    height: 100px;
+    background-color: darkslategray;
+    padding: 20px 0;
+}
+
+.flex-cont_footer {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.flex-item_footer_dx {
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+.flex-cont_footer a {
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.icon_footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.icons i {
+    display: inline-block;
+}
+
+.white {
+    color: white;
+}
+
+.card:hover .img1{
+    display: none;
+}
+.card:hover .img2{
+    display: block;
+}
+
+.heart_box {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    top: 20px;
+    right: 0;
+    position: absolute;
+    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.heart_box:hover {
+    color: red;
+}
+
+.box_red {
+    width: 40px;
+    background-color: red;
+    font-size: 14px;
+    padding: 4px;
+    margin-right: 5px;
+    text-align: center;
+    
+    
+}
+
+.box_green {
+    width: 50px;
+    background-color: green;
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+}
+
+.position_block {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
