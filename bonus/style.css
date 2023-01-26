@@ -18,7 +18,7 @@ header {
 .header_cont {
     display: flex;
     height: 40px;
-
+    padding: 0 20px;
 }
 
 .cont {
@@ -156,10 +156,10 @@ footer {
     color: white;
 }
 
-.card:hover .img1{
+.image:hover .img1{
     display: none;
 }
-.card:hover .img2{
+.image:hover .img2{
     display: block;
 }
 
@@ -180,7 +180,7 @@ footer {
 }
 
 .box_red {
-    width: 40px;
+    display: inline-block;
     background-color: red;
     font-size: 14px;
     padding: 4px;
@@ -191,7 +191,7 @@ footer {
 }
 
 .box_green {
-    width: 50px;
+    display: inline-block;
     background-color: green;
     font-size: 14px;
     padding: 4px;
@@ -199,7 +199,6 @@ footer {
 }
 
 .position_block {
-    width: 200px;
     height: 20px;
     position: absolute;
     bottom: 60px;
